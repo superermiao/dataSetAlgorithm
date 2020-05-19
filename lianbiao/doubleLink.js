@@ -96,7 +96,7 @@ function doubleList(){
 
         console.log('当前prev', prev)
         console.log('当前curr', curr)
-        // 此时，curr是当需要移除的，所以要把curr后面的节点与curr前面的节点想关联。达到移除curr的功能
+        // 此时，curr是当需要移除的，所以要把curr后面的节点与curr前面的节点相关联。达到移除curr的功能
         prev.next = curr.next
         curr.next.prev = prev
       }
